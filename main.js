@@ -33,13 +33,13 @@ const miNumeroFav2 = miNumeroFav.toString();
 console.log(typeof miNumeroFav2);
 // Crea una variable y asignale un valor. Después utilizando template literal haz uso de la variable que habías creado, guarda el template literal en otra variable y sacala por consola.
 const variable1 = 33;
-const vartem = (`Me gusta el numero ${variable1}`)
+const vartem = (`Me gusta el numero ${variable1}`);
 console.log(vartem);
 // Muestra por consola la variable PI hasta los 2 primeros decimales
 console.log(PI.toFixed(2))
 // ARRAYS
 // Crear variable de nombre arrayVacio cuyo valor sea un array vacío
-const arrayVacio = []
+let arrayVacio = [];
 // Crear variable de nombre arrayNumeros declarada con un array de números del 0 al 9 (0, 1, 2...)
-const arrayNumeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+const arrayNumeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 console.log(arrayNumeros);
